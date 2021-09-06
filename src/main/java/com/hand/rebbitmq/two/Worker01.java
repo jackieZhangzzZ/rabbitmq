@@ -14,7 +14,7 @@ public class Worker01 {
 
     public static void main(String[] args) throws Exception {
         Channel channel = RabbitUtils.getChannel();
-        //接收消息的回调
+        // 接收消息的回调
         DeliverCallback deliverCallback = (consumerTag, message) ->{
             System.out.println("收到的消息:"+new String(message.getBody()));
         };

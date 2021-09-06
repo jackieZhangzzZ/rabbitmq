@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  * @author zhuopeng.zhang@hand-china.com 2021/9/2 15:03
- * 生产者
+ * 生产者 工作队列
  */
 public class Task01 {
     public static final String QUEUE_NAME = "hello";
